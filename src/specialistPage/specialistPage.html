@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./specialistPage.css" />
+        <link rel="stylesheet" href="../main.css" />
+        <title>Specialist Page</title>
+    </head>
+    <body>
+        <div
+            id="root"
+            class="container d-flex align-items-center justify-content-center"
+            style="height: 100%"
+        >
+            <form id="specialist-form" class="text-center">
+                <h2 id="specialist-form-title">Aptarnavimo forma</h2>
+                <fieldset class="form-group">
+                    <label for="specialist">
+                        Specialistas
+                    </label>
+                    <select
+                        id="specialist"
+                        name="specialist"
+                        class="browser-default custom-select"
+                        required
+                    >
+                        <option value="" selected disabled hidden>
+                            Pasirinkite specialista
+                        </option>
+                        <option value="traktoristas">Traktoristas</option>
+                        <option value="klounas">Klounas</option>
+                        <option value="buhalteris">Buhalteris</option>
+                    </select>
+                </fieldset>
+                <fieldset class="form-group">
+                    <label>
+                        Kliento numeris
+                    </label>
+                    <p id="client-id"></p>
+                </fieldset>
+                <button id="submit-button" type="submit" class="btn btn-success" disabled>
+                    Aptarnauta
+                </button>
+            </form>
+        </div>
+        <script src="./specialistPage.js"></script>
+    </body>
+</html>

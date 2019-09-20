@@ -1,0 +1,22 @@
+#registration-form{
+    padding: 20px;
+    width: 60%;
+}
+
+#title{
+    margin-bottom: 1em;
+}
+
+#specialist{
+    text-transform: capitalize;
+}
+
+#set-data-button{
+    position: absolute;
+}
+
+@media (max-width: 1000px){
+    #registration-form{
+        width: 90%;
+    }
+}

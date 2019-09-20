@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Ernis",
+        "specialist": "klounas",
+        "status": "waiting",
+        "queue": 1
+    },
+    {
+        "id": 2,
+        "name": "Ernestas",
+        "specialist": "traktoristas",
+        "status": "waiting",
+        "queue": 1
+    },
+    {
+        "id": 3,
+        "name": "Xman",
+        "specialist": "klounas",
+        "status": "waiting",
+        "queue": 2
+    },
+    {
+        "id": 4,
+        "name": "Spiderman",
+        "specialist": "buhalteris",
+        "status": "waiting",
+        "queue": 1
+    }
+]
