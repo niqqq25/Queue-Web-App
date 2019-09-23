@@ -4,8 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="./specialistPage.css" />
-        <link rel="stylesheet" href="../main.css" />
+        <link rel="stylesheet" href="../styles/specialist.css" />
+        <link rel="stylesheet" href="../styles/main.css" />
         <title>Specialist Page</title>
     </head>
     <body>
@@ -26,12 +26,6 @@
                         class="browser-default custom-select"
                         required
                     >
-                        <option value="" selected disabled hidden>
-                            Pasirinkite specialista
-                        </option>
-                        <option value="traktoristas">Traktoristas</option>
-                        <option value="klounas">Klounas</option>
-                        <option value="buhalteris">Buhalteris</option>
                     </select>
                 </fieldset>
                 <fieldset class="form-group">
@@ -40,11 +34,16 @@
                     </label>
                     <p id="client-id"></p>
                 </fieldset>
-                <button id="submit-button" type="submit" class="btn btn-success" disabled>
+                <button
+                    id="submit-button"
+                    type="submit"
+                    class="btn btn-success"
+                    disabled
+                >
                     Aptarnauta
                 </button>
             </form>
         </div>
-        <script src="./specialistPage.js"></script>
+        <script src="../scripts/specialist.js"></script>
     </body>
 </html>

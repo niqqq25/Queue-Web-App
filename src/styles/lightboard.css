@@ -1,0 +1,31 @@
+body {
+    overflow: hidden !important;
+}
+
+.queue-column{
+    display: inline-block;
+    width: 33.33%;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.queue-column-title{
+    background: lightblue;
+    font-size: 4vw;
+    border-bottom: 2px solid black;
+}
+
+.clients-id-list{
+    list-style-type: none;
+}
+
+.client-id-field{
+    font-size: 5vw;
+    border-bottom: 3px solid grey;
+}
+
+.client-id-field:last-child{
+    border: none;
+}

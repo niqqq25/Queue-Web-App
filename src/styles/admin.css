@@ -1,6 +1,9 @@
-#registration-form{
-    padding: 20px;
+#root{
     width: 60%;
+}
+
+#registration-form{
+    margin: 20px;
 }
 
 #title{
@@ -16,7 +19,7 @@
 }
 
 @media (max-width: 1000px){
-    #registration-form{
+    #root{
         width: 90%;
     }
 }

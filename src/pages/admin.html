@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Administration page</title>
+        <link rel="stylesheet" href="../styles/admin.css" />
+        <link rel="stylesheet" href="../styles/main.css">
+    </head>
+    <body>
+        <button id="set-data-button" type="button">
+            Load clients from JSON
+        </button>
+        <div class="container d-flex justify-content-center">
+            <div id="root">
+                <form id="registration-form" class="text-center">
+                    <h2 id="title">Registracijos forma</h2>
+                    <fieldset class="form-group">
+                        <label for="client-name">Vardas</label>
+                        <input
+                            id="client-name"
+                            type="text"
+                            name="client-name"
+                            placeholder="Vardas"
+                            class="form-control"
+                            spellcheck="false"
+                            pattern="^\p{Lu}\p{Ll}+$"
+                            required
+                        />
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="specialist">Specialistas</label>
+                        <select
+                            id="specialist"
+                            name="specialist"
+                            class="form-control"
+                            required
+                        >
+                        </select>
+                    </fieldset>
+                    <button type="submit" class="btn btn-primary">
+                        Registruoti
+                    </button>
+                </form>
+            </div>
+        </div>
+        <script src="../scripts/admin.js"></script>
+    </body>
+</html>

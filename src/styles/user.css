@@ -1,0 +1,60 @@
+#root {
+    width: 40%;
+}
+
+#client-login-form {
+    margin: 20px;
+}
+
+#submit-button {
+    margin-top: 10px;
+}
+
+#client-info-element {
+    text-align: center;
+}
+
+#client-info-table {
+    text-align: left;
+}
+
+#client-info-title {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#client-info-value {
+    text-transform: capitalize;
+}
+
+.client-info-text {
+    font-size: 30px;
+}
+
+#cancel-visit-button {
+    margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+    #root {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    #root {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .client-info-text {
+        font-size: 20px;
+    }
+    .button{
+        font-size: 16px !important;
+    }
+
+}
